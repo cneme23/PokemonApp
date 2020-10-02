@@ -11,7 +11,7 @@ import { fetchPosts } from "../actions/postsAction";
 
 const useStyles = makeStyles({
   root: {
-    margin: "40px auto 0 auto",
+    margin: "40px auto 0 auto", 
     width: "80%",
   },
   gridItem: {
