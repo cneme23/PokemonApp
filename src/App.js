@@ -25,7 +25,7 @@ function App({dispatch}) {
       <ThemeProvider theme={theme}>
         <Navbar handleChange={handleChange} search={search} />
         <Switch>
-          <Route exact path="/" children={<BodyPage search={search} />} />
+          <Route exact path="/PokemonApp" children={<BodyPage search={search} />} />
           <Route
             exact
             path="/hooks-redux-posts/"
